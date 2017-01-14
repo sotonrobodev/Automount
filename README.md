@@ -20,5 +20,5 @@ The files should not be saved together they should be saved in the following loc
 A list of what is planned:
 
 - [x] MVP, script runs when usb is inserted and will run the script on the usb.
-- [] Improvements to the example python, probably with an inclusion of the robot's library.
-- [] Improvements to the mounting script, having it save an error to file main.py is not found on the usb, making it case insensitive.
+- [ ] Improvements to the example python, probably with an inclusion of the robot's library.
+- [ ] Improvements to the mounting script, having it save an error to file main.py is not found on the usb, making it case insensitive.
