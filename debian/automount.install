@@ -1,0 +1,2 @@
+90-autorun.rules      lib/udev/rules.d/
+mounting_script.sh    usr/share/automount/
