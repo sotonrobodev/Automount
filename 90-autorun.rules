@@ -1,1 +1,1 @@
-ACTION=="add",KERNEL=="sda1",RUN+="/usr/share/automount/mounting_script.sh %k"
+ACTION=="add",KERNEL=="sd*1",RUN+="/usr/share/automount/mounting_script.sh %k"
