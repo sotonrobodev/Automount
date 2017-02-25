@@ -9,7 +9,6 @@ Package: automount
 Architecture: all
 Depends: ${misc:Depends},
          udev,
-         pmount,
 Description: Automatic mounting of USB devices
  udev rules to automatically mount USB devices into a sane location on
  appearance of the corresponding block devices.
