@@ -1,3 +1,4 @@
 #!/bin/bash
-
-pmount --exec /dev/$1
+mkdir -p /media/$1
+fsck -p /dev/$1
+mount -o noatime,sync /dev/$1 /media/$1
