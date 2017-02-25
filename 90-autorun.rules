@@ -1,1 +1,2 @@
 ACTION=="add",KERNEL=="sd*1",RUN+="/usr/share/automount/mounting_script.sh %k"
+ACTION=="remove", KERNEL=="sd*1", RUN+="/usr/share/automount/unmounting_script.sh %k"
