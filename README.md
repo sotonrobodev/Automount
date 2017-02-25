@@ -11,7 +11,7 @@ A basic explanation on how this works:
 
 The files should not be saved together they should be saved in the following locations.
 * 90-autorun.rules should be saved in /etc/udev/rules.d
-* mounting_script.sh should be saved in /home/pi/automount, this can be changed as required.
+* mounting_script.sh should be saved in /usr/share/automount, this can be changed as required.
 * main.py should be saved on the root of the usb stick.
 
 
