@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pmount /dev/$1
+pmount --exec /dev/$1
