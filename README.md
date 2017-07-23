@@ -7,7 +7,7 @@ A basic explanation on how this works:
 * The mounting script, mounting_script.sh, which has the connected sd kernel passed in as a variable. Which mounts the usb stick, runs main.py on the usb stick, and then unmounts it.
 * The example main.py, which at the moment just creates a test file, with some test data.
 
-##Save Locations
+## Save Locations
 
 The files should not be saved together they should be saved in the following locations.
 * 90-autorun.rules should be saved in /etc/udev/rules.d
@@ -15,7 +15,7 @@ The files should not be saved together they should be saved in the following loc
 * main.py should be saved on the root of the usb stick.
 
 
-##To Do:
+## To Do:
 
 A list of what is planned:
 
